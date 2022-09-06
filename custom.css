@@ -42,3 +42,34 @@ display: block;
 height: 130px;
 width: 140px;
 }
+#ccn{
+    margin-left: 70%;
+    margin-top: 25%;
+
+}
+#ccp{
+    margin-left: -70%;
+    margin-top: 25%;
+  }
+br{
+    background-color: #fff;
+}
+#lightmode{
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+cursor: pointer;
+    }
+#darkmode{
+ height: 35px;
+ width: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+ }
+ .orange{
+    color: orange;
+ }
+ .dark{
+    background-color: #201;
+    color :#fff
+ }
