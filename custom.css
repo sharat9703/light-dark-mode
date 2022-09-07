@@ -32,11 +32,15 @@ display: block;
 }
 #over-img-div{
     float: left;
-    left:2%;    
+    left:0;    
     top:60%;
     z-index: 0  ;
     position: absolute;
   /*  <!--margin-left: 80px;--> */
+}
+#res-div{
+    
+    margin-top: 180px;
 }
 .img-card{
 height: 130px;
@@ -70,6 +74,9 @@ cursor: pointer;
     color: orange;
  }
  .dark{
-    background-color: #201;
-    color :#fff
+    
+    color :#fff;
+ }
+ .darkmode{
+    z-index: 0;
  }
