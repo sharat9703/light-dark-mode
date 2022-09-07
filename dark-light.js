@@ -12,13 +12,9 @@ for(let i=0;i<x.length;i++){
     }
 }
 
-let divOffCanvas = [];
+let divOffCanvas = document.getElementsByClassName("offcanvas-body");
 
-for(let i =0;i<x.length;i++){
-    if(x[i].classList.contains('offcanvas-body')){
-        divOffCanvas.push(x[i]);
-    }
-}
+
 
 let elementToDarkMode=[];
 
@@ -75,12 +71,8 @@ divBgDark.forEach(item => {
     item.classList.add("text-dark");
     });
  
-let divOffCanvasNew = [];
-for(let i =0;i<y.length;i++){
-    if(y[i].classList.contains('offcanvas-body')){
-        divOffCanvasNew.push(y[i]);
-    }
-}
+let divOffCanvasNew = document.getElementsByClassName("offcanvas-body");
+
     divOffCanvasNew[0].style.backgroundColor="#fff";
     divOffCanvasNew[0].style.color = "#201";
     document.getElementById('offcanvas-header').classList.remove('bg-white');   
